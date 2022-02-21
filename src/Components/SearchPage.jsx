@@ -33,7 +33,6 @@ export const SearchPage = () => {
         />
         <input
           type="type"
-          value={searchValue || query}
           onChange={(e) => {
             dispatch(searchValueADD(e.target.value))
           }}
